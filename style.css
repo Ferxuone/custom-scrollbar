@@ -1,0 +1,52 @@
+:root {
+  --azul-claro: #B3DFFC;
+  --azul-cielo: #87CEEB;
+  --azul-marino: #1F497D;
+  --azul-acero: #4682B4;
+  --azul-indigo: #4B0082;
+  --azul-turquesa: #40E0D0;
+  --azul-noche: #0C2340;
+}
+
+body {
+  height: 200vh;
+  background-color: var(--azul-noche);
+  font-family: 'Roboto', sans-serif;
+  color: var(--azul-acero);
+  padding: 1.5rem;
+}
+
+body > p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* ::-webkit-scrollbar-button {
+  background: yellow;
+  content: 'h';
+} */
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--azul-noche);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--azul-claro);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--azul-turquesa);
+}
+
+/* Handle on active */
+::-webkit-scrollbar-thumb:active {
+  background: var(--azul-turquesa);
+}
